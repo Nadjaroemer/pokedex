@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Pokedex</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/9fb57291c6.js" crossorigin="anonymous"></script><!--Link to fontawsome-->
+        <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"><!--Link to google fonts-->
+        <link rel="stylesheet" href="css/style.css"> <!--Link to stylesheet-->
+    </head>
+    
+    <body>
+        <div id="wrapper">
+            <header class="pokedex__header">
+                <div class="container">
+                    <div class="menu" tabindex="1">
+                        <div class="list">
+                            <span>Home</span>
+                            <span>Characters</span>
+                            <span>About</span>
+                        </div>
+                        <div class="btn"></div>
+                    </div>
+                </div>
+            
+                <h1 class="pokedex__header__h1">Pokedex</h1>
+                <!--<div class="pokedex__header__searchBar">
+                    <input class="search" type="search" placeholder="Search...">
+                    <i class="fas fa-search"></i>
+                </div>-->
+            </header>
+            
+            <main class="pokedex__main">
+
+                <section class="pokemonSelection">
+                    <ul class="pokemonList">
+                    
+                    </ul>
+                </section>
+
+                <div class="back">
+                    <h1>This is the back</h1>
+                  </div>
+
+                <div class="pokedex__main__arrows">
+                    <a href="" class="previousLink"><i class="fas fa-arrow-left"></i></a> 
+                    <a href="" class="nextLink"><i class="fas fa-arrow-right"></i></a>  
+                </div>
+            </main>
+            
+            <footer class="pokedex__footer">
+                <p>Created by using PokeAPI</p>
+                <p class="pokedex__footer__copyright">&copy; 2020. All rights reserved.</p>
+            </footer>
+
+            <template id="pokemons">
+                <li>
+                    <a href="" class="types"></a>
+                </li> 
+            </template>
+
+        </div><!--End of wrapper-->
+        <script src="scripts/app.js" async defer></script>
+        <script src="scripts/cardflip.js" async defer></script>
+    </body>
+   
+</html>
